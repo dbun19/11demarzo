@@ -1,0 +1,33 @@
+
+@keyframes subir{
+    0%{buttom:-180px}
+    100%{buttom:0px}
+}
+.fotoarriba{
+
+animation:subir 1 2s forwards;
+/* border: pink solid; */
+bottom:0px;
+position:fixed;
+right:0;
+width:15%;
+z-index:1000;
+/* min-width:200px;
+max-width:600px; */
+}
+.fotoarriba img{
+    filter: grayscale(1);
+    transform:linear all 0,5s;
+}
+.fotoarriba img:hover{
+    filter: grayscale(0);
+    transform:rotate(-10deg) ;
+}
+.bluemenu{
+    background:linear-gradient(darkblue, lightblue)!important;
+    box-shadow:0.2em 0 0.5em rgba(0,0,0,0.5);
+}
+.mifoto{
+    border-radius:50%;
+    box-shadow:0.2em 0 0.5em rgba(0,0,0,0.5);
+}
